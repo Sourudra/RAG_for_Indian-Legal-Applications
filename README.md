@@ -6,8 +6,8 @@ Semantic Search: Utilizes FAISS for efficient retrieval of relevant legal contex
 Natural Language Generation: Employs Flan-T5 to generate human-like, grounded answers based on retrieved context and user queries.
 Data Preprocessing: Includes cleaning, deduplication, and standardization for high-quality, consistent input.
 Scalable Design: Modular architecture for easy integration with additional datasets or functionality enhancements.
-# How It Works
-#Data Preparation:
+
+# Data Preparation:
 
 Load and clean datasets covering the Indian Constitution, IPC, and CrPC.
 Generate 768-dimensional embeddings using Sentence-BERT (all-mpnet-base-v2) for semantic similarity.
@@ -30,34 +30,12 @@ PyTorch: Framework for model integration and training.
 JSON: Used for structured storage of legal datasets.
 # Setup and Usage
 Clone the Repository
-
-bash
-Copy code
+# Copy code
 git clone https://github.com/your-username/RAG-Indian-Legal.git  
-cd RAG-Indian-Legal  
-Install Dependencies
 
-bash
-Copy code
 pip install -r requirements.txt  
-Prepare Data
-
-Place the legal datasets (Indian Constitution, IPC, CrPC) in the data/ folder.
-Run the preprocessing script:
-bash
-Copy code
-python preprocess.py  
-Run the Application
-
-Build the FAISS index:
-bash
-Copy code
-python build_index.py  
-Start the system to input queries and get answers:
-bash
-Copy code
-python main.py  
-Future Enhancements
+  
+# Future Enhancements
 Multilingual Support: Extend functionality to regional Indian languages.
 Expanded Knowledge Base: Incorporate case laws and legal amendments.
 Interactive Query Refinement: Allow users to refine queries dynamically.
