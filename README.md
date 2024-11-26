@@ -31,7 +31,8 @@ JSON: Used for structured storage of legal datasets.
 # Setup and Usage
 Clone the Repository
 # Copy code
-git clone https://github.com/your-username/RAG-Indian-Legal.git  
+git clone https://github.com/you
+r-username/RAG-Indian-Legal.git  
 
 pip install -r requirements.txt  
   
@@ -44,3 +45,6 @@ This project is licensed under the MIT License.
 
 # Contribution
 Contributions are welcome! Feel free to open an issue or submit a pull request to improve the project.
+# Workflow 
+![RAG_Workflow](https://github.com/user-attachments/assets/e276797c-704b-453f-8068-39f37059de58)
+
